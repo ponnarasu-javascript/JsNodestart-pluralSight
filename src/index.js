@@ -11,4 +11,5 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //library for number formatting
 
 var courseValue = (0, _numeral2.default)(1000).format('$0,0.00');
+debugger;
 console.log('i would pay ' + courseValue + ' for this course');
