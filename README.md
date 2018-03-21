@@ -208,7 +208,7 @@ Return fetch(url).then(onsuccess,onerror); // todo onsuccess/ onerror methods
 URl to call the api=> ./api/userApi
 Note:  fetch is native library. Some browsers wont know the fetch. To make unsupported browser to know fetch, use polyfill in index.html. chrome & all wont require but older ones need.
 Index.html
-<script src=https://cdn.polyfill.io/......
+#<script src=https://cdn.polyfill.io/....../>
 Mock the HTTP requests
 Useful for unit testing. Rapid prototyping. Work offline without connecting DB or connecting api.
 Options – NOCK, static json, create dev server -> api-mock or json server or json schema faker
@@ -227,7 +227,7 @@ Import fs from ‘fs’; // node inbuild library
 Mock api server creation 
 Package.json
 Script{
-“start-mockapi”:”json-server –watch src/api/db/json --port 3001”
+“start-mockapi”:”json-server –watch src/api/db/json --port 3001”}
 
 It creates api service for many json objects – here localhost:3001/users & localhost:3001/home etc
 
